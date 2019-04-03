@@ -6,6 +6,7 @@ define('DB_PASSWORD', '');
 define('DB_DATABASE', 'books'); //where books is the database name
 $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE); */
 $db = mysqli_connect('localhost','root','','books_info');
+$db = mysqli_connect();
 // $conn = mysqli_select_db($db,'books_info');
 ?>
 <br>
